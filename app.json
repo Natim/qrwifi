@@ -1,0 +1,7 @@
+{
+  "name": "QRWifi",
+  "description": "Generate QR-Code to configure your phone automatically with a QRCode",
+  "image": "heroku/python",
+  "repository": "https://github.com/Natim/qrwifi",
+  "keywords": ["python", "flask", "qrcode" ]
+}

@@ -1,8 +1,7 @@
-click==6.7
-Cython==0.28.3
-Flask==1.0.2
-itsdangerous==0.24
-Jinja2==2.10
-MarkupSafe==1.0
-qrkit==0.2.0
-Werkzeug==0.14.1
+Cython
+Flask
+Jinja2
+-e git+git@github.com:Natim/qrkit.git@9e4a68ba038b7eaaa97e842c88d22cb7d4dd2a40#egg=qrkit
+gunicorn
+Pillow
+
