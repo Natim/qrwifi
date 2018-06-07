@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form action="/qrwifi/" method="post">
+    <p><label for="ssid">WIFI SSID :</label>
+      <input type="text" name="ssid" value=""></p>
+    <p><label for="ssid">Mot de passe :</label>
+      <input type="text" name="passwd" value=""></p>
+    <p>
+      <label for="ssid">Type de WIFI :</label>
+      <select name="stype">
+	<option value="WEP">WEP</option>
+	<option value="WPA">WPA</option>
+	<option value="no">No encryption</option>
+      </select>
+    </p>
+
+    <input type="submit"
+id="bsubmit" value="QR Encode">
+
+<div style="font-size: 0.6em; margin-top: 10px;">Aucune des informations saisies n'est enregistrée. <a href="http://shr.im/qrwifi">Voir le code</a></div>
+
+<div style="font-size: 0.6em; margin-top: 10px;">&copy; 2011 - <a href="http://www.ionyse.com/accueil/" style="color: #2c5218; text-decoration: none;">IONYSE</a></div>
+</form>
+
+{% endblock %}

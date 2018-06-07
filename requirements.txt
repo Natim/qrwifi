@@ -1,0 +1,8 @@
+click==6.7
+Cython==0.28.3
+Flask==1.0.2
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+qrkit==0.2.0
+Werkzeug==0.14.1

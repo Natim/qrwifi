@@ -1,0 +1,41 @@
+<html>
+    <head>
+      <title>qrwifi - {% block title %}Welcome{% endblock %}</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" type="text/css" href="/static/css/styles.css" />
+    </head>
+    <body>
+      <div id="container">
+	<div id="header"></div>
+
+	<div id="content">
+	  <div id="logo">
+	    <a href="/"><img alt="QR Wifi Connection" src="/static/img/logo.png" /></a>
+	  </div>
+
+	  <div class="box-globale fond-gris">
+	    <div class="box-intermediaire fond-blanc">
+	      {% block content %}{% endblock %}
+	    </div>
+	  </div>
+	</div>
+
+	<div id="footer"></div>
+      </div>
+
+      <script type="text/javascript">
+      
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-15599887-2']);
+        _gaq.push(['_trackPageview']);
+      
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      
+      </script>
+
+    </body>
+</html>
