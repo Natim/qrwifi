@@ -3,4 +3,3 @@ Flask
 Jinja2
 gunicorn
 Pillow
--e git+https://github.com/Natim/qrkit.git@9e4a68ba038b7eaaa97e842c88d22cb7d4dd2a40#egg=qrkit
