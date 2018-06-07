@@ -1,7 +1,6 @@
 Cython
 Flask
 Jinja2
--e git+git@github.com:Natim/qrkit.git@9e4a68ba038b7eaaa97e842c88d22cb7d4dd2a40#egg=qrkit
+-e git+https://github.com/Natim/qrkit.git@9e4a68ba038b7eaaa97e842c88d22cb7d4dd2a40#egg=qrkit
 gunicorn
 Pillow
-
