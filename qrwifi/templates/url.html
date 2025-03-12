@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form action="/url/" method="post">
+    <p><label for="url">URL :</label>
+      <input type="text" name="url" value="" placeholder="https://…"></p>
+    </p>
+
+    <input type="submit"
+id="bsubmit" value="QR Encode">
+
+<div style="font-size: 0.6em; margin-top: 10px;">Aucune des informations saisies n'est enregistrée. <a href="https://github.com/natim/qrwifi">Voir le code</a></div>
+
+<div style="font-size: 0.6em; margin-top: 10px;">&copy; 2011 - <a href="https://www.trunat.fr/" style="color: #2c5218; text-decoration: none;">Natim</a></div>
+<div style="font-size: 0.6em; margin-top: 10px;"><a href="/" style="color: #2c5218; text-decoration: none;">Générer un QRCode de Wifi</a></div>
+</form>
+
+
+{% endblock %}

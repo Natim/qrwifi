@@ -2,8 +2,8 @@
 
 {% block content %}
 
-<img src="data:image/png;base64,{{ imgb64 }}" alt="{{ url }}" title="{{ url }}" />
-<h1>Scanner pour accèder au site — <a href="{{ url }}">Tester</a></h1>
+<img src="data:image/png;base64,{{ imgb64 }}" alt="{{ ssid }}" title="{{ ssid }}" />
+<h1>Scanner pour vous connecter au WiFi : {{ ssid }}</h1>
 
 <div style="font-size: 0.6em; margin-top: 10px;">&copy; 2011 - <a href="https://www.trunat.fr/" style="color: #2c5218; text-decoration: none;">Natim</a></div>
 {% endblock %}
